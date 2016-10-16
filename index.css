@@ -1,0 +1,121 @@
+#largeHeader {
+    font-size: 65px;
+    letter-spacing: 10px;
+    font-family: Two Cen MT;
+    Trebuchet MS;
+    Verdana;
+    text-align: center;
+    font-style: bold;
+    italic;
+    animation-name: picFadeIn;
+    animation-duration: 6s;
+}
+#link {
+    font-family: Roboto;
+    Trebuchet MS;
+    Arial;
+    font-size: 24px;
+}
+a:link {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none
+}
+a:visited {
+    color:teal;
+    background-color: transparent;
+    text-decoration: none
+}
+a:hover {
+    color: 4169e1;
+    background-color: transparent;
+    text-decoration: underline
+}
+a:active {
+    color: 6495ed;
+    background-color: transparent;
+    text-decoration: underline
+}
+#bigQuote {
+    font-size: 16px;
+    font-family: Impact;
+    Trebuchet MS;
+    Verdana;
+    text-align: center;
+    letter-spacing: 5px;
+    line-height: 2px;
+    word-spacing: 5px;
+}
+#quickQuote {
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-family: Ubuntu;
+    Trebuchet MS;
+    Verdana;
+    word-spacing: 3px;
+    line-height: 3px;
+    font-style: italic;
+}
+#horizontalDivider {
+    position: center;
+    background: teal;
+    width: 1388;
+    height: 25px;
+    opacity: 70;
+}
+#description {
+    text-align: center;
+    color: 0f0f0f;
+    font-family: Two Cen MT;
+    Trebuchet MS;
+    Verdana;
+    font-size: 17px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+h1 {
+    font-size: 50px;
+    font-family: Two Cen MT;
+    Trebuchet MS;
+    Verdana;
+    text-align: center;
+    color: black;
+    font-style: italic;
+}
+body {
+    background-color: ffffff;
+    font-family: Two Cen MT;
+    Trebuchet MS;
+    Verdana;
+    text-align: center;
+}
+p {
+    font-family: Two Cen MT;
+    Trebuchet MS;
+    Verdana;
+    text-align: center;
+}
+#footerText {
+    font-size: 8px;
+    font-family: Arial;
+    text-align: center;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    background-color: aaaaaa;
+}
+/*--------------------All Animation Elements Are Below--------------------- */
+ #logo {
+    width: 150px;
+    height: 250px;
+    padding: 3px;
+    animation-name: picFadeIn;
+    animation-duration: 8s;
+}
+@-webkit-keyframes picFadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 100;
+    }
+}
